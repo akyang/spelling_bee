@@ -2,7 +2,7 @@ import re
 my_dict = 'pg29765.txt'
 dest = 'cleaned.txt'
 identifier = ';'
-p = re.compile('[A-Za-z-]+')
+p = re.compile('[A-Z-]+')
 
 def extract_words(original_path, dest_path):
     with open(original_path, 'r') as dictionary:
