@@ -1,8 +1,8 @@
 import sys
-my_dict = 'cleaned.txt'
+my_dict = 'words_alpha.txt'
 
 def load_letters(letters):
-    return list(letters.upper())
+    return list(letters.lower())
 
 def find_words(letters):
     with open(my_dict) as dictionary:

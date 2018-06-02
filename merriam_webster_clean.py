@@ -24,7 +24,7 @@ def extract_word(string):
     return False
 
 def format_word(string):
-    return string.replace('-', '').upper() + "\r\n"
+    return string.replace('-', '').lower() + "\r\n"
 
 if __name__ == '__main__':
     extract_words(my_dict, dest)
